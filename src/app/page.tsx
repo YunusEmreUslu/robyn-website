@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
-import { Carousel } from "./components/ui/carousel";
 import { CarouselDemo } from "./components/carousel-demo";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
       <Navbar />
       <main>
         <CarouselDemo />
+        <Hero />
       </main>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
